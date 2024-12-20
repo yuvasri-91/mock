@@ -9,7 +9,7 @@ fi
 echo -n "Enter your salary: "
 read salary
 if [ "$salary" -lt 30000 ]; then
-    echo "No tax."
+	    echo "No tax."
 elif [ "$salary" -le 40000 ]; then
     tax=$((salary / 10))
     echo "10% tax: \$${tax}"
